@@ -1,0 +1,19 @@
+{
+  "name": "line-api-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon  app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@line/bot-sdk": "^6.3.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.4",
+    "request": "^2.88.0"
+  }
+}
